@@ -5,7 +5,7 @@ module.exports = {
     name: "meme",
     description:"Mit diesem command kannst du dir ein random meme anschauen",
     run: async (client, message, args) => {
-        const url = 'https://meme-api.herokuapp.com/gimme';
+        const url = 'https://www.reddit.com/r/meme/hot/.json?limit=100';
 
         let data, response;
         try {
