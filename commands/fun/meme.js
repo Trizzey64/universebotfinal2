@@ -5,7 +5,7 @@ module.exports = {
     name: "meme",
     description:"Mit diesem command kannst du dir ein random meme anschauen",
     run: async (client, message, args) => {
-        const url = 'https://github.com/R3l3ntl3ss/Meme_Api';
+        const url = 'https://rapidapi.com/collection/meme';
 
         let data, response;
         try {
