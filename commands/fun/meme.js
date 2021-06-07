@@ -5,7 +5,7 @@ module.exports = {
     name: "meme",
     description:"Mit diesem command kannst du dir ein random meme anschauen",
     run: async (client, message, args) => {
-        const url = 'https://www.reddit.com/r/meme/hot/.json?limit=100';
+        const url = 'https://www.reddit.com/r/memes/random/.json';
 
         let data, response;
         try {
