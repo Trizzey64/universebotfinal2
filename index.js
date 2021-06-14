@@ -15,7 +15,7 @@ client.categories = fs.readdirSync("./commands/");
 
 }); 
 client.on('ready', () => {
-    client.user.setActivity(`${prefix}help |Beta version by Tristan#0694`)
+    client.user.setActivity(`${prefix}help |Beta version|Developed by Tristan#0694`)
     console.log(`${client.user.username} ✅`)
 })
 client.on('message', async message =>{
